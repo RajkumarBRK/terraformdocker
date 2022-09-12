@@ -115,3 +115,7 @@ resource "aws_instance" "web-1" {
 output "ami_id" {
   value = "${data.aws_ami.my_ami.id}"
 }
+resourse "aws_s3_bucket" "abc"{
+         bucket= "rajkumar4433309"
+         acl="private"
+}
